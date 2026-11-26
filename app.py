@@ -139,7 +139,7 @@ with tab1:
         for c in sorted(mp.cluster.unique()):
             m = mp.cluster == c
             ax.scatter(mp.pc1[m], mp.pc2[m], s=4, alpha=.35, label=b["cluster_names"][c])
-        ax.scatter(*pt, marker="*", s=300, c="black", edgecolors="white", label="Your song", zorder=5)
+        ax.scatter(*pt, marker="*", s=80, c="black", edgecolors="white", label="Your song", zorder=5)
         ax.set_xlabel("PC1"); ax.set_ylabel("PC2"); ax.legend(markerscale=3, fontsize=7)
         st.pyplot(fig)
 
