@@ -9,6 +9,5 @@ Models: Logistic Regression, KNN, tuned Gradient Boosting. PCA (2D map) + K-Mean
 3. `python train.py`   (creates `models/bundle.joblib`, `models/results.csv`, plots)
 4. `streamlit run app.py`
 
-## Deploy (Streamlit Community Cloud, free)
-1. Push this folder to a GitHub repo. **Commit `models/bundle.joblib`** (don't commit the big dataset.csv).
-2. Go to https://share.streamlit.io -> New app -> pick the repo, branch, main file `app.py` -> Deploy.
+## Deployed using Streamlit
+https://spotify-hit.streamlit.app/
