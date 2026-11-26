@@ -1,0 +1,4 @@
+model,threshold,accuracy,f1,roc_auc
+Logistic Regression,0.73,0.8919,0.3939,0.8674
+KNN (k=15),0.21,0.9107,0.3811,0.8092
+Tuned Boosting,0.75,0.9044,0.412,0.885
